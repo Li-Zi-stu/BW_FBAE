@@ -1,0 +1,35 @@
+{
+    "name": "BW_FBAE",
+    "description": "For better academic exchanges.",
+    "keywords": ["Network"],
+    "env": {
+        "BWFBAECORESERVERLINK": {
+            "description": "Your FBAE core server link.",
+            "value": "Link"
+        },
+        "BWFBAECORESERVERCONFIG": {
+            "description": "Your FBAE core server config.",
+            "value": "Config"
+        },
+        "BWFBAEIPCONFIGLINK": {
+            "description": "Your FBAE ipconfig link.",
+            "value": "Link"
+        },
+        "BWFBAESITECONFIGLINK": {
+            "description": "Your FBAE siteconfig link.",
+            "value": "Link"
+        },
+        "BWFBAEWEBSERVERCONFIG": {
+            "description": "Your FBAE web server config.",
+            "value": "Config"
+        },
+        "BWFBAEWEBCONFIG": {
+            "description": "Your FBAE web config.",
+            "value": "Config"
+        }
+    },
+    "website": "https://fbae.libw.cc/",
+    "repository": "https://github.com/Li-Zi-stu/BW_FBAE",
+    "stack": "container",
+    "features": ["runtime-dyno-metadata"]
+}
